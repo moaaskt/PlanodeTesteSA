@@ -6,9 +6,9 @@ E-COMMERCE SA
 
 ## Histórico das alterações
 
-   Data    | Versão |    Descrição   | Autor(a)
+   Data    | Versão |    Descrição   | Autores(a)
 -----------|--------|----------------|-----------------
-16/05/2023 |  0.1   | Release incial | Moacir Neto
+16/05/2023 |  0.1   | Release incial | Moacir,Breno,Vitor
 
 
 ## 1 - Introdução
@@ -118,25 +118,43 @@ Requisitos a testar subdivididos em casos de uso e requisitos não-funcionais.
 
 
 
-## 4 - Tipos de teste
+## 5 - Tipos de teste
 
-Esta seção deve conter os tipos de testes escolhidos para cada iteração do projeto.
-Pode-se definir inicialmente apenas os tipos de testes que serão usadas na próxima iteração, mas é possível também já registrar eventuais tipos de teste que se espera utilizar nas demais iterações. 
-Com base no guia de testes, indique os tipos de testes que melhor se adéquam aos requisitos, tipo da aplicação e seus recursos disponíveis e, caso necessário complemente ou forneça mais detalhes da técnica e dos critérios de completude sugeridos no guia para cada tipo de teste indicado.
+Nesta seção, descrevemos os tipos de testes que serão utilizados nas iterações do eCommerce, levando em consideração os requisitos, tipo da aplicação e recursos disponíveis.
 
-- Teste de interface de usuário;
-- Teste de performance;
-- Teste de carga;
-- Teste de stress;
-- Teste de segurança e controle de acesso;
-- Teste de instalação;
-- Entre outros.
+1. Teste de interface de usuário:
+   - Verificar a usabilidade do site, incluindo a navegabilidade, a aparência visual e a interação do usuário com os elementos da interface.
+   - Testar a consistência do design e a correta exibição de elementos em diferentes dispositivos e navegadores.
+   - Validar a funcionalidade dos botões, campos de entrada, formulários e fluxos de navegação.
 
-### 4.1 - Métodos da Classe 
+2. Teste de desempenho:
+   - Avaliar o tempo de resposta do sistema ao lidar com diferentes cargas de usuários.
+   - Medir a velocidade de carregamento de páginas e recursos, como imagens e scripts.
+   - Identificar gargalos de desempenho e otimizar o tempo de resposta do sistema.
 
-Para teste de funcionalidade.
-Aqui deve-se verificar se cada classe retorna o esperado.
-Se possível usar teste automatizado.
+3. Teste de carga:
+   - Simular uma carga pesada de usuários e verificar o comportamento do sistema.
+   - Avaliar se o sistema é capaz de lidar com um grande número de transações simultâneas.
+   - Monitorar o consumo de recursos (CPU, memória, largura de banda) durante a carga.
+
+4. Teste de estresse:
+   - Realizar testes extremos para determinar o limite de capacidade do sistema.
+   - Verificar como o sistema se comporta sob condições de alto estresse, como picos repentinos de tráfego ou grandes volumes de dados.
+   - Identificar falhas de desempenho, estabilidade ou recuperação após situações de estresse.
+
+5. Teste de segurança e controle de acesso:
+   - Verificar a robustez da aplicação contra ameaças de segurança, como ataques de injeção, cross-site scripting (XSS) e falsificação de solicitação entre sites (CSRF).
+   - Testar a eficácia dos mecanismos de autenticação e autorização, garantindo que apenas usuários autorizados tenham acesso a recursos sensíveis.
+   - Avaliar a integridade dos dados e a confidencialidade das informações do usuário.
+
+6. Teste de instalação:
+   - Validar o processo de instalação do aplicativo eCommerce em diferentes ambientes (por exemplo, servidores de produção, ambientes de desenvolvimento, ambientes de teste).
+   - Verificar se todos os componentes necessários são instalados corretamente e se a configuração está adequada.
+   - Testar a compatibilidade com diferentes sistemas operacionais, versões de banco de dados ou outras dependências.
+
+## 6 - Métodos da Classe
+
+6.1 Nesta seção, são apresentados os testes de funcionalidade realizados na classe "CarrinhoDeCompras", verificando se ela retorna os resultados esperados.
 
 <br/>
 <table>
@@ -145,7 +163,7 @@ Se possível usar teste automatizado.
             Objetivo
         </th>
         <th colspan="4">
-            descreva aqui o objetivo
+            Verificar se a classe "CarrinhoDeCompras" calcula corretamente o valor total dos produtos adicionados.
         </th>
     </tr>
     <tr>
@@ -192,18 +210,14 @@ Se possível usar teste automatizado.
             Responsável(is)
         </th>
         <th colspan="4">
-            Programador(es) ou equipe de testes
+            Equipe de testes
         </th>
     </tr>
 </table>
 <br/>
 
-### 3.2 - Persistência de Dados
 
-Para teste de integridade de dados e do banco de dados.
-Aqui deve-se verificar se os dados não se perdem ao desligar o programa. Se o programa consegue se recuperar em caso de falha ou fechamento repentino.
-Se possível usar teste automatizado.
-
+6.2 Nesta seção, são apresentados os testes de funcionalidade realizados na classe "Produto", verificando se ela retorna os resultados esperados.
 <br/>
 <table>
     <tr>
@@ -211,7 +225,7 @@ Se possível usar teste automatizado.
             Objetivo
         </th>
         <th colspan="4">
-            Verificar se dados são mantidos após súbito desligamento do programa .
+            Verificar se a classe "Produto" calcula corretamente o desconto aplicado com base no preço original e no percentual de desconto.
         </th>
     </tr>
     <tr>
@@ -233,10 +247,10 @@ Se possível usar teste automatizado.
             Integração ( )
         </th>
         <th>
-            Sistema (x)
+            Sistema ( )
         </th>
         <th>
-            Unidade ( )
+            Unidade (x)
         </th>
         <th>
             Aceitação ( )
@@ -247,7 +261,7 @@ Se possível usar teste automatizado.
             Abordagem do teste
         </th>
         <th colspan="2">
-            Caixa branca ( )
+            Caixa branca (x)
         </th>
         <th colspan="2">
             Caixa preta (x)
@@ -258,17 +272,17 @@ Se possível usar teste automatizado.
             Responsável(is)
         </th>
         <th colspan="4">
-            Programador(es) ou equipe de testes
+            Equipe de testes
         </th>
     </tr>
 </table>
 <br/>
 
-### 3.3 - Integração dos Componentes
 
-Para teste de funcionalidade.
-Aqui deve-se verificar se as classes e métodos conseguem fazer a integração entre elas para uma sequência de ações do programa.
-Se possível usar teste automatizado.
+
+## 7 - Persistência de Dados
+
+Nesta seção, descrevemos os testes de persistência de dados e do banco de dados realizados para verificar se os dados não se perdem ao desligar o programa e se o programa é capaz de se recuperar em caso de falha ou fechamento repentino.
 
 <br/>
 <table>
@@ -277,7 +291,71 @@ Se possível usar teste automatizado.
             Objetivo
         </th>
         <th colspan="4">
-            descreva aqui o objetivo
+            Verificar se os dados são preservados ao desligar o programa e se o programa consegue se recuperar em caso de falha ou fechamento repentino.
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
+            (x) manual
+        </th>
+        <th colspan="2">
+            (x) automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração ( )
+        </th>
+        <th>
+            Sistema ( )
+        </th>
+        <th>
+            Unidade ( )
+        </th>
+        <th>
+            Aceitação (x)
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca (x)
+        </th>
+        <th colspan="2">
+            Caixa preta ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Equipe de testes
+        </th>
+    </tr>
+</table>
+<br/>
+
+## 7.1 - Integração dos Componentes
+
+Nesta seção, são apresentados os testes de funcionalidade realizados para verificar a integração entre as classes e métodos, garantindo que eles sejam capazes de executar uma sequência de ações do programa de forma correta.
+
+<br/>
+<table>
+    <tr>
+        <th>
+            Objetivo
+        </th>
+        <th colspan="4">
+            Verificar se as classes e métodos são capazes de se integrar adequadamente para realizar uma sequência de ações do programa.
         </th>
     </tr>
     <tr>
@@ -313,7 +391,7 @@ Se possível usar teste automatizado.
             Abordagem do teste
         </th>
         <th colspan="2">
-            Caixa branca (x)
+            Caixa branca ( )
         </th>
         <th colspan="2">
             Caixa preta (x)
@@ -324,18 +402,13 @@ Se possível usar teste automatizado.
             Responsável(is)
         </th>
         <th colspan="4">
-            Programador(es) ou equipe de testes
+            Equipe de testes
         </th>
     </tr>
 </table>
 <br/>
 
-### 3.4 - Tempo de Resposta
-
-Para teste de funcionalidade.
-Aqui deve-se verificar se o tempo de respostas das ações do programa são consideradas aceitáveis.
-Se possível usar teste automatizado.
-
+## 7.2 - Tempo de Resposta
 <br/>
 <table>
     <tr>
@@ -343,7 +416,7 @@ Se possível usar teste automatizado.
             Objetivo
         </th>
         <th colspan="4">
-            descreva aqui o objetivo
+            Verificar se o tempo de resposta das ações do programa está dentro dos limites aceitáveis definidos.
         </th>
     </tr>
     <tr>
@@ -351,10 +424,10 @@ Se possível usar teste automatizado.
             Técnica:
         </th>
         <th colspan="2">
-            ( ) manual
+            (x) manual
         </th>
         <th colspan="2">
-            ( ) automática
+            (x) automática
         </th>
     </tr>
     <tr>
@@ -371,7 +444,7 @@ Se possível usar teste automatizado.
             Unidade ( )
         </th>
         <th>
-            Aceitação ( )
+            Aceitação (x)
         </th>
     </tr>
     <tr>
@@ -382,7 +455,7 @@ Se possível usar teste automatizado.
             Caixa branca ( )
         </th>
         <th colspan="2">
-            Caixa preta ( )
+            Caixa preta (x)
         </th>
     </tr>
     <tr>
@@ -390,99 +463,82 @@ Se possível usar teste automatizado.
             Responsável(is)
         </th>
         <th colspan="4">
-            Programador(es) ou equipe de testes
+            Equipe de testes
         </th>
     </tr>
 </table>
 <br/>
+  
+## 8 -  Recursos
 
-### 3.5 - Animação
+Nesta seção, descrevemos os recursos necessários para a execução dos testes no contexto do eCommerce, incluindo recursos humanos, ambiente de teste e ferramentas de automatização.
 
-Para teste de funcionalidade (para games, principalmente, mas não somente).
-Aqui deve-se verificar se as animações existentes no programa são disparadas quando devem e se seguem uma sequência lógica.
-Se possível usar teste automatizado.
+### Recursos Humanos
 
-<br/>
-<table>
-    <tr>
-        <th>
-            Objetivo
-        </th>
-        <th colspan="4">
-            descreva aqui o objetivo
-        </th>
-    </tr>
-    <tr>
-        <th>
-            Técnica:
-        </th>
-        <th colspan="2">
-            ( ) manual
-        </th>
-        <th colspan="2">
-            ( ) automática
-        </th>
-    </tr>
-    <tr>
-        <th>
-            Estágio do teste
-        </th>
-        <th>
-            Integração ( )
-        </th>
-        <th>
-            Sistema ( )
-        </th>
-        <th>
-            Unidade ( )
-        </th>
-        <th>
-            Aceitação ( )
-        </th>
-    </tr>
-    <tr>
-        <th>
-            Abordagem do teste
-        </th>
-        <th colspan="2">
-            Caixa branca ( )
-        </th>
-        <th colspan="2">
-            Caixa preta ( )
-        </th>
-    </tr>
-    <tr>
-        <th>
-            Responsável(is)
-        </th>
-        <th colspan="4">
-            Programador(es) ou equipe de testes
-        </th>
-    </tr>
-</table>
-<br/>
+- Equipe de testes: composta por um testador responsável pela execução dos testes e um desenvolvedor para auxiliar na configuração do ambiente de teste.
 
-### 3.6 - Efeitos Sonoros
+### Ambiente de Teste
+
+- Hardware:
+  - Computador com recursos adequados para a execução dos testes, incluindo processador, memória e espaço de armazenamento suficientes.
+
+- Software:
+  - Sistema operacional: Windows 10.
+  - Ambiente de desenvolvimento: IDE de sua escolha (por exemplo, Visual Studio Code) para configuração e execução dos testes.
+  - Dependências:
+    - Node.js: versão 14.0 ou superior.
+    - Banco de dados: MySQL Server.
+
+### Ferramentas de Automatização
+
+- Cypress: ferramenta de automação de testes de interface de usuário.
+- Mocha: framework de testes JavaScript para a execução de testes unitários.
+- Chai: biblioteca de asserção para auxiliar na escrita de testes unitários.
 
 
-## 4 - Recursos
 
-Esta seção deve descrever os recursos humanos, de ambiente de teste (hardware e software) e de ferramentas de automatização de testes necessários para execução dos testes que devem ser descritos nas subseções que seguem.
+### 8.1 - Ambiente de teste - Software e Hardware
 
-### 4.1 - Ambiente de teste - Software e Hardware
+### Ambiente de Teste - Hardware
 
-Descreva aqui o hardware e sua configuração, e o software. Por exemplo, o sistema operacional, browsers, servidor web, etc.
-### 4.2 - Ferramenta de teste
+- Computador:
+  - Processador: Intel Core i7-9700K 3.6GHz
+  - Memória RAM: 16GB DDR4
+  - Armazenamento: SSD 500GB
 
-Descreva aqui as ferramentas específicas de teste usadas no projeto.
+### Ambiente de Teste - Software
+
+- Sistema Operacional: Windows 10 Professional 64 bits
+- Navegadores:
+  - Google Chrome: versão 98
+  - Mozilla Firefox: versão 97
+- Servidor Web: Apache Tomcat 9.0.58
+- Banco de Dados: MySQL Server 8.0.27
+- Linguagem de Programação: Java JDK 11.0.12
+- IDE: Eclipse 2021-09 (ou outra IDE de sua escolha)
 
 
-## 5 - Cronograma
+
+
+### 8.2 - Ferramenta de teste
+
+- Cypress: Framework de automação de testes de interface de usuário. É utilizado para testar a funcionalidade e a usabilidade do eCommerce, simulando a interação do usuário com a aplicação por meio de scripts automatizados.
+
+- JUnit: Framework de testes unitários para a linguagem de programação Java. É utilizado para escrever e executar testes unitários nas classes e métodos do eCommerce, verificando se cada unidade de código funciona conforme o esperado.
+
+- Postman: Ferramenta de teste de API que permite enviar solicitações HTTP para o eCommerce e verificar as respostas recebidas. É utilizado para testar a integração e o comportamento das APIs do eCommerce.
+
+- JMeter: Ferramenta de teste de desempenho que simula cargas de trabalho e avalia o desempenho do eCommerce em diferentes cenários de uso. É utilizado para testar a capacidade de resposta, escalabilidade e estabilidade do sistema em condições de alta carga.
+
+- SonarQube: Plataforma de análise estática de código que verifica a qualidade e a conformidade do código-fonte do eCommerce. É utilizado para identificar possíveis problemas, como vulnerabilidades, duplicações de código e más práticas de programação.
+
+
+## 9 - Cronograma
 
 Tipo de teste      | Duração | data de início | data de término
 -------------------|---------|----------------|-----------------
-planejar teste     |         | dd/mm/aaaa     | dd/mm/aaaa
-projetar teste     |         | dd/mm/aaaa     | dd/mm/aaaa
-implementar teste  |         | dd/mm/aaaa     | dd/mm/aaaa
-executar teste     |         | dd/mm/aaaa     | dd/mm/aaaa
-avaliar teste      |         | dd/mm/aaaa     | dd/mm/aaaa
+planejar teste     |   2hrs  | 29/03/2023     | 29/03/2023
+projetar teste     |   12hrs | 19/04/2023     | 26/04/2023
+implementar teste  |    nd   |     nd         | nd
+executar teste     |    nd   |     nd         | nd
+avaliar teste      |    nd   |     nd         | nd
