@@ -8,7 +8,7 @@ E-COMMERCE SA
 
 1. [Introdução](#introdução)
 2. [Requisitos](#requisitos-a-testar)
-3. [Configuração](#configuração)
+3. [Configuração](#3)
 4. [Uso](#uso)
 5. [Contribuição](#contribuição)
 6. [Licença](#licença)
