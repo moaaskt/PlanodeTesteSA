@@ -4,6 +4,15 @@ E-COMMERCE SA
 
 *versão 0.1*
 
+## Sumário
+
+1. [Introdução](#introdução)
+2. [Requisitos](#requisitos)
+3. [Configuração](#configuração)
+4. [Uso](#uso)
+5. [Contribuição](#contribuição)
+6. [Licença](#licença)
+
 ## Histórico das alterações
 
    Data    | Versão |    Descrição   | Autores(a)
@@ -11,7 +20,7 @@ E-COMMERCE SA
 16/05/2023 |  0.1   | Release incial | Moacir,Breno,Vitor
 
 
-## 1 - Introdução
+## Introdução
 
 O presente plano de teste tem como objetivo garantir a qualidade e o bom funcionamento do nosso e-commerce, proporcionando uma experiência positiva aos usuários e clientes. O e-commerce em questão é uma plataforma online de vendas de produtos, onde os clientes podem realizar compras, efetuar pagamentos e acompanhar o status de seus pedidos. O objetivo principal é assegurar que todas as funcionalidades do e-commerce estejam em conformidade com os requisitos estabelecidos e que o sistema esteja livre de erros, oferecendo uma navegação intuitiva, segurança na transação e eficiência nas operações.
 
