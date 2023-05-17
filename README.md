@@ -85,6 +85,31 @@ Requisitos a testar subdivididos em casos de uso e requisitos não-funcionais.
 | Req2                       | O sistema deve permitir que os usuários façam login                            |
 
 
+### Req1 Cadastro de usuário
+
+- Descrição: Permite que novos usuários se cadastrem no sistema.
+- Ator principal: Usuário do sistema.
+- Fluxo principal:
+- O usuário acessa a página de registro.
+- O usuário preenche os campos necessários, como nome, e-mail e senha.
+- O sistema valida as informações fornecidas.
+- O sistema cria uma conta de usuário para o usuário registrado.
+- O sistema exibe uma mensagem de confirmação de registro.
+
+
+### Req2 Login de usuário
+
+- Descrição: Permite que os usuários acessem suas contas no sistema.
+- Ator principal: Usuário do sistema.
+- Fluxo principal:
+- O usuário acessa a página de login.
+- O usuário insere suas credenciais, como e-mail e senha.
+- O sistema verifica as credenciais fornecidas.
+- Se as credenciais estiverem corretas, o sistema concede acesso à conta do usuário.
+- O usuário é redirecionado para a página inicial ou para a página anteriormente acessada.
+- Se as credenciais estiverem incorretas, o sistema exibe uma mensagem de erro.
+
+
 
 ## Requisitos Não-Funcionais
 
