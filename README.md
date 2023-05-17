@@ -1,4 +1,6 @@
-# Plano de Teste
+# Plano de Teste <p align="center">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+</p>
 
 E-COMMERCE SA 
 
@@ -551,3 +553,4 @@ projetar teste     |   12hrs | 19/04/2023     | 26/04/2023
 implementar teste  |    nd   |     nd         | nd
 executar teste     |    nd   |     nd         | nd
 avaliar teste      |    nd   |     nd         | nd
+
