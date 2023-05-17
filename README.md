@@ -9,7 +9,7 @@ E-COMMERCE SA
 ## Sumário
 
 1. [Introdução](#introdução)
-2. [Requisitos](#2-Requisitos-a-Testar)
+2. [Requisitos](#2)
 3. [Configuração](#3)
 4. [Uso](#uso)
 5. [Contribuição](#contribuição)
