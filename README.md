@@ -563,9 +563,9 @@ avaliar teste      |    nd   |     nd         | nd
 # MIT License
 ===========
 
-Direitos Autorais (c) 2023 Moacir Da Silva Neto
+Direitos Autorais (c) 2023 Moacir Neto, Breno Alves, Vitor Hosang
 
-A permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia deste software e arquivos de documentação associados (o "Software"), para lidar com o Software sem restrição, incluindo, sem limitação, os direitos de usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender cópias do Software, e permitir que pessoas a quem o Software seja fornecido o façam, sob as seguintes condições:
+A permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia deste software e arquivos de documentação associados o E-Commerce SA, para lidar com o Software sem restrição, incluindo, sem limitação, os direitos de usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender cópias do Software, e permitir que pessoas a quem o Software seja fornecido o façam, sob as seguintes condições:
 
 O aviso de direitos autorais acima e este aviso de permissão devem ser incluídos em todas as cópias ou partes substanciais do Software.
 
