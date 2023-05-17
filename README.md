@@ -8,7 +8,7 @@ E-COMMERCE SA
 
 ## Indice 
 
-1. [Introdução](#introdução)
+1. [Introdução](#introdução).
 2. [Requisitos a testar](#Requisitos-a-Testar)
 3. [Telas Do sistema](#Lista-de-Telas-do-Sistema)
 4. [Lista de Casos de Uso](#Lista-de-Casos-de-Uso)
@@ -17,10 +17,10 @@ E-COMMERCE SA
 7. [Persistência de Dados](#Persistência-de-Dados)
 8. [Integração dos Componentes](#Integração-dos-Componentes)
 9. [Tempo de Resposta](#Tempo-de-Resposta)
-10.[Recursos](#Recursos)
-11.[Ambiente de Teste](#Ambiente-de-teste)
-12.[Ferramenta de teste](#Ferramenta-de-teste)
-13.[Cronograma](#Cronograma)
+10. [Recursos](#Recursos)
+11. [Ambiente de Teste](#Ambiente-de-teste)
+12. [Cronograma](#Cronograma)
+
 
 ## Histórico das alterações
 
