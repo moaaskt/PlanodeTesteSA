@@ -9,7 +9,7 @@ E-COMMERCE SA
 ## Indice 
 
 1. [Introdução](#introdução)
-2. [Requisitos](#2-requisitos-a-testar)
+2. [Requisitos a testar](#Requisitos-a-Testar)
 3. [Configuração](#3)
 4. [Telas Do sistema](#Lista-de-Telas-do-Sistema)
 5. [Contribuição](#contribuição)
@@ -43,7 +43,7 @@ O presente plano de teste tem como objetivo garantir a qualidade e o bom funcion
 
 Também é possível apresentar aqui o programa que será testado.
 
-## 2 - Requisitos a Testar
+## Requisitos a Testar
 
 Requisitos a testar subdivididos em casos de uso e requisitos não-funcionais.
 
