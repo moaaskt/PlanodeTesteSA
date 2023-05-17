@@ -6,12 +6,12 @@ E-COMMERCE SA
 
 *versão 0.1*
 
-## Sumário
+## Indice 
 
 1. [Introdução](#introdução)
 2. [Requisitos](#2-requisitos-a-testar)
 3. [Configuração](#3)
-4. [Uso](#uso)
+4. [Uso](#Lista-de-Telas-do-Sistema)
 5. [Contribuição](#contribuição)
 6. [Licença](#licença)
 
@@ -86,7 +86,7 @@ Requisitos a testar subdivididos em casos de uso e requisitos não-funcionais.
 - Testar as medidas de prevenção de ataques, como SQL Injection e Cross-Site Scripting (XSS), para garantir a segurança das informações dos clientes e das transações realizadas.
 
 
-## 3 - Lista de Telas do Sistema
+## Lista de Telas do Sistema
 
 1. Tela de login
 2. Tela de registro de usuário
