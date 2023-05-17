@@ -20,6 +20,7 @@ E-COMMERCE SA
 10. [Recursos](#Recursos)
 11. [Ambiente de Teste](#Ambiente-de-teste)
 12. [Cronograma](#Cronograma)
+13. [Autores](#Autores)
 
 
 ## Histórico das alterações
@@ -552,3 +553,8 @@ implementar teste  |    nd   |     nd         | nd
 executar teste     |    nd   |     nd         | nd
 avaliar teste      |    nd   |     nd         | nd
 
+
+# Autores
+
+| [<img src="https://avatars.githubusercontent.com/u/101300315?v=4" width=115><br><sub>Moacir Neto</sub>](https://github.com/moaaskt) |  [<img src="https://avatars.githubusercontent.com/u/90656387?v=4" width=115><br><sub>Breno Alves</sub>](https://github.com/euBinho) |  [<img src="https://avatars.githubusercontent.com/u/8989346?v=4" width=115><br><sub>Alex Felipe</sub>](https://github.com/alexfelipe) |
+| :---: | :---: | :---: |
