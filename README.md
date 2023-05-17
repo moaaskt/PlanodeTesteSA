@@ -77,6 +77,15 @@ Requisitos a testar subdivididos em casos de uso e requisitos não-funcionais.
 - Testar a seleção de um pedido específico pelo usuário.
 - Garantir que o usuário possa visualizar as informações detalhadas do pedido, incluindo status de entrega e histórico de atualizações.
 
+## Requisitos Funcionais
+
+| Identificador do requisito | Nome do requisito                    |
+| -------------------------- | ------------------------------------ |
+| Req1                       | O sistema deve permitir que os usuários se cadastrem                        |
+| Req2                       | O sistema deve permitir que os usuários façam login                            |
+
+
+
 ## Requisitos Não-Funcionais
 
 | Identificador do requisito | Nome do requisito                    |
