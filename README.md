@@ -21,6 +21,7 @@ E-COMMERCE SA
 11. [Ambiente de Teste](#Ambiente-de-teste)
 12. [Cronograma](#Cronograma)
 13. [Autores](#Autores)
+14. [Liçenca](#MIT-License)
 
 
 ## Histórico das alterações
@@ -558,3 +559,14 @@ avaliar teste      |    nd   |     nd         | nd
 
 | [<img src="https://avatars.githubusercontent.com/u/101300315?v=4" width=115><br><sub>Moacir Neto</sub>](https://github.com/moaaskt) |  [<img src="https://avatars.githubusercontent.com/u/90656387?v=4" width=115><br><sub>Breno Alves</sub>](https://github.com/euBinho) |  [<img src="https://avatars.githubusercontent.com/u/90656758?v=4" width=115><br><sub>Vitor Hosang</sub>](https://github.com/vhosang) |
 | :---: | :---: | :---: |
+
+# MIT License
+===========
+
+Direitos Autorais (c) 2023 Moacir Da Silva Neto
+
+A permissão é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia deste software e arquivos de documentação associados (o "Software"), para lidar com o Software sem restrição, incluindo, sem limitação, os direitos de usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender cópias do Software, e permitir que pessoas a quem o Software seja fornecido o façam, sob as seguintes condições:
+
+O aviso de direitos autorais acima e este aviso de permissão devem ser incluídos em todas as cópias ou partes substanciais do Software.
+
+O SOFTWARE É FORNECIDO "COMO ESTÁ", SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU IMPLÍCITA,
