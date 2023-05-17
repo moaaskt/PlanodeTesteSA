@@ -10,16 +10,23 @@ E-COMMERCE SA
 
 1. [Introdução](#introdução)
 2. [Requisitos a testar](#Requisitos-a-Testar)
-3. [Configuração](#3)
-4. [Telas Do sistema](#Lista-de-Telas-do-Sistema)
-5. [Contribuição](#contribuição)
-6. [Licença](#licença)
+3. [Telas Do sistema](#Lista-de-Telas-do-Sistema)
+4. [Lista de Casos de Uso](#Lista-de-Casos-de-Uso)
+5. [Tipos de teste](#Tipos-de-teste)
+6. [Métodos da Classe](#Métodos-da-Classe)
+7. [Persistência de Dados](#Persistência-de-Dados)
+8. [Integração dos Componentes](#Integração-dos-Componentes)
+9. [Tempo de Resposta](#Tempo-de-Resposta)
+10.[Recursos](#Recursos)
+11.[Ambiente de Teste](#Ambiente-de-teste)
+12.[Ferramenta de teste](#Ferramenta-de-teste)
+13.[Cronograma](#Cronograma)
 
 ## Histórico das alterações
 
    Data    | Versão |    Descrição   | Autores(a)
 -----------|--------|----------------|-----------------
-16/05/2023 |  0.1   | Release incial | Moacir,Breno,Vitor
+16/05/2023 |  0.1   | Release incial | Moacir Silva,Breno,Vitor
 
 
 ## Introdução
@@ -106,7 +113,7 @@ Requisitos a testar subdivididos em casos de uso e requisitos não-funcionais.
 16. Tela de notificações
 
 
-## 4 -  Lista de Casos de Uso
+## Lista de Casos de Uso
 
 | Identificador do caso de uso | Nome do caso de uso                                   |
 | ---------------------------- | ----------------------------------------------------- |
@@ -129,7 +136,7 @@ Requisitos a testar subdivididos em casos de uso e requisitos não-funcionais.
 
 
 
-## 5 - Tipos de teste
+## Tipos de teste
 
 Nesta seção, descrevemos os tipos de testes que serão utilizados nas iterações do eCommerce, levando em consideração os requisitos, tipo da aplicação e recursos disponíveis.
 
@@ -163,9 +170,11 @@ Nesta seção, descrevemos os tipos de testes que serão utilizados nas iteraç�
    - Verificar se todos os componentes necessários são instalados corretamente e se a configuração está adequada.
    - Testar a compatibilidade com diferentes sistemas operacionais, versões de banco de dados ou outras dependências.
 
-## 6 - Métodos da Classe
 
-6.1 Nesta seção, são apresentados os testes de funcionalidade realizados na classe "CarrinhoDeCompras", verificando se ela retorna os resultados esperados.
+
+## Métodos da Classe
+
+ Nesta seção, são apresentados os testes de funcionalidade realizados na classe "CarrinhoDeCompras", verificando se ela retorna os resultados esperados.
 
 <br/>
 <table>
@@ -228,7 +237,7 @@ Nesta seção, descrevemos os tipos de testes que serão utilizados nas iteraç�
 <br/>
 
 
-6.2 Nesta seção, são apresentados os testes de funcionalidade realizados na classe "Produto", verificando se ela retorna os resultados esperados.
+ Nesta seção, são apresentados os testes de funcionalidade realizados na classe "Produto", verificando se ela retorna os resultados esperados.
 <br/>
 <table>
     <tr>
@@ -291,7 +300,7 @@ Nesta seção, descrevemos os tipos de testes que serão utilizados nas iteraç�
 
 
 
-## 7 - Persistência de Dados
+## Persistência de Dados
 
 Nesta seção, descrevemos os testes de persistência de dados e do banco de dados realizados para verificar se os dados não se perdem ao desligar o programa e se o programa é capaz de se recuperar em caso de falha ou fechamento repentino.
 
@@ -355,7 +364,7 @@ Nesta seção, descrevemos os testes de persistência de dados e do banco de dad
 </table>
 <br/>
 
-## 7.1 - Integração dos Componentes
+## Integração dos Componentes
 
 Nesta seção, são apresentados os testes de funcionalidade realizados para verificar a integração entre as classes e métodos, garantindo que eles sejam capazes de executar uma sequência de ações do programa de forma correta.
 
@@ -419,7 +428,7 @@ Nesta seção, são apresentados os testes de funcionalidade realizados para ver
 </table>
 <br/>
 
-## 7.2 - Tempo de Resposta
+## Tempo de Resposta
 <br/>
 <table>
     <tr>
@@ -480,7 +489,7 @@ Nesta seção, são apresentados os testes de funcionalidade realizados para ver
 </table>
 <br/>
   
-## 8 -  Recursos
+## Recursos
 
 Nesta seção, descrevemos os recursos necessários para a execução dos testes no contexto do eCommerce, incluindo recursos humanos, ambiente de teste e ferramentas de automatização.
 
@@ -488,17 +497,6 @@ Nesta seção, descrevemos os recursos necessários para a execução dos testes
 
 - Equipe de testes: composta por um testador responsável pela execução dos testes e um desenvolvedor para auxiliar na configuração do ambiente de teste.
 
-### Ambiente de Teste
-
-- Hardware:
-  - Computador com recursos adequados para a execução dos testes, incluindo processador, memória e espaço de armazenamento suficientes.
-
-- Software:
-  - Sistema operacional: Windows 10.
-  - Ambiente de desenvolvimento: IDE de sua escolha (por exemplo, Visual Studio Code) para configuração e execução dos testes.
-  - Dependências:
-    - Node.js: versão 14.0 ou superior.
-    - Banco de dados: MySQL Server.
 
 ### Ferramentas de Automatização
 
@@ -508,7 +506,7 @@ Nesta seção, descrevemos os recursos necessários para a execução dos testes
 
 
 
-### 8.1 - Ambiente de teste - Software e Hardware
+### Ambiente de teste 
 
 ### Ambiente de Teste - Hardware
 
@@ -531,7 +529,7 @@ Nesta seção, descrevemos os recursos necessários para a execução dos testes
 
 
 
-### 8.2 - Ferramenta de teste
+### Ferramenta de teste
 
 - Cypress: Framework de automação de testes de interface de usuário. É utilizado para testar a funcionalidade e a usabilidade do eCommerce, simulando a interação do usuário com a aplicação por meio de scripts automatizados.
 
@@ -544,7 +542,7 @@ Nesta seção, descrevemos os recursos necessários para a execução dos testes
 - SonarQube: Plataforma de análise estática de código que verifica a qualidade e a conformidade do código-fonte do eCommerce. É utilizado para identificar possíveis problemas, como vulnerabilidades, duplicações de código e más práticas de programação.
 
 
-## 9 - Cronograma
+## Cronograma
 
 Tipo de teste      | Duração | data de início | data de término
 -------------------|---------|----------------|-----------------
