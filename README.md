@@ -27,7 +27,7 @@ E-COMMERCE SA
 
    Data    | Versão |    Descrição   | Autores(a)
 -----------|--------|----------------|-----------------
-16/05/2023 |  0.1   | Release incial | Moacir Silva,Breno,Vitor
+16/05/2023 |  0.1   | Release incial | Moacir Silva,Breno Alves,Vitor Hosang
 
 
 ## Introdução
