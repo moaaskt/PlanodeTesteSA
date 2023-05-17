@@ -25,7 +25,7 @@ E-COMMERCE SA
 
 ## Histórico das alterações
 
-   Data    | Versão |    Descrição   | Autores(a)
+   Data    | Versão |    Descrição   | Autores
 -----------|--------|----------------|-----------------
 16/05/2023 |  0.1   | Release incial | Moacir Silva,Breno Alves,Vitor Hosang
 
